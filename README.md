@@ -1,5 +1,21 @@
 # xd-popWithEditor
 基于layer和wangeditor的弹出
+
+```html
+<h3>参数说明</h3>
+editorOpt:为wangeditor的参数配置项，可不传，默认只有[
+                'head',
+                'bold',
+                'italic',
+                'underline'
+            ]<br>
+popClose：点确定关闭弹窗后的，回调值为编辑器里的值
+
+
+<h3>须注意</h3>
+
+<input class="popWithEditor" type="text" readonly /><br>
+需要弹窗部分，加上class="popWithEditor" <br>
 ```html
 
 $('.popWithEditor').xdPopWithEditor({
@@ -19,18 +35,4 @@ $('.popWithEditor').xdPopWithEditor({
                 console.log(resp,'resp')
             }
         })
-```html
-<h3>参数说明</h3>
-editorOpt:为wangeditor的参数配置项，可不传，默认只有[
-                'head',
-                'bold',
-                'italic',
-                'underline'
-            ]<br>
-popClose：点确定关闭弹窗后的，回调值为编辑器里的值
 
-
-<h3>须注意</h3>
-...html
-<input class="popWithEditor" type="text" readonly />
-需要弹窗部分，加上class="popWithEditor"
