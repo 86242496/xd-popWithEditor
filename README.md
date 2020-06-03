@@ -13,9 +13,9 @@ popClose：点确定关闭弹窗后的，回调值为编辑器里的值
 
 
 <h3>须注意</h3>
-
 <input class="popWithEditor" type="text" readonly /><br>
 需要弹窗部分，加上class="popWithEditor" <br>
+<br>
 ```html
 
 $('.popWithEditor').xdPopWithEditor({
