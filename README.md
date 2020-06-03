@@ -19,7 +19,7 @@ $('.popWithEditor').xdPopWithEditor({
                 console.log(resp,'resp')
             }
         })
-
+```html
 <h3>参数说明</h3>
 editorOpt:为wangeditor的参数配置项，可不传，默认只有[
                 'head',
